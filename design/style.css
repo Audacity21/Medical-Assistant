@@ -59,3 +59,10 @@
     font-size: 30px;
     margin-left: 50px;
 }
+.home-desc p{
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+}
