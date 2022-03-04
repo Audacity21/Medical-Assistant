@@ -3,8 +3,17 @@
     padding: 0;
     font-family: 'Fredoka', sans-serif;
 }
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 36px;
+    margin-top: 30px;
+}
 .home-list{
-    width: 120px;
+    width: 320px;
     height: 100vh;
     background-color: rgb(91, 180, 196);
     float: left;
@@ -19,9 +28,13 @@
 .home-list ul{
     padding: 25px;
     position: fixed;
-    bottom: 5%;
+    bottom: 30%;
     text-align: center;
     list-style: none;
+    margin-left: 40px;
+}
+.home-list ul li:hover{
+    background-color: rgb(72, 132, 143);
 }
 .home-list a{
     color: aliceblue;
@@ -87,22 +100,4 @@ button {
 	transition: transform 80ms ease-in;
     margin-left: 200px;
     margin-top: 30px;
-}
-
-button:active {
-	transform: scale(0.95);
-}
-
-button:focus {
-	outline: none;
-}
-
-button.ghost {
-	background-color: transparent;
-	border-color: #FFFFFF;
-}
-.home-image{
-    float: right;
-    width: 600px;
-    padding: 80px;
 }
